@@ -1,0 +1,88 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #35354a;
+    color: #f5f6f7;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-style: italic;
+}
+
+#title {
+    margin-top: 70px;
+    margin-bottom: -10px;
+}
+#title, #description {
+    text-align: center;
+}
+
+#survey-form {
+    width: 60vw;
+    max-width: 700px;
+    min-width: 400px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+fieldset {
+    border: lightgray;
+    padding: 2rem 0;
+    border-bottom: 3px solid #43436d;
+}
+
+fieldset:last-of-type {
+    border-bottom: none;
+}
+
+label {
+    display: block;
+    margin: 0.5rem auto;
+}
+
+.block, textarea, .dropdown {
+    margin: 10px 0 0 0;
+    width: 100%;
+}
+
+input,
+textarea {
+    background-color: #d0d0eb;
+    border: 1px solid #2d2d4e;
+    color: #1e1c1c;
+}
+
+.block, .dropdown {
+    min-height: 2.1em;
+}
+
+textarea {
+    min-height: 4em;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #15b3a6;
+    border-color: white;
+    min-width: 300px;
+}
+
+input[type="radio"] {
+    display: inline;
+}
+
+#langue {
+    margin: 20px 0px;
+}
+
+input[type="checkbox"] {
+    display: inline;
+}
+
+#tech {
+    margin: 20px 0px;
+}
